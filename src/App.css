@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ccc{
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+  display: flex;
+  border: 1px solid #E3C465;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #FFE699;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.user_block_padding{
+  width: 25%;
+  padding: 10px;
+}
+
+.user_block{
+  padding: 10px;
+  border: 5px solid #FFF3CC;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.user_block:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.user_data{
+  display: flex;
+  margin: 5px;
+}
+
+.user_data :first-child{
+  padding-right: 5px;
+  font-style: oblique;
+  color: #1F3237
+}
+
+.user_data :last-child{
+  padding-left: 5px;
+  font-weight: 500;
+}
